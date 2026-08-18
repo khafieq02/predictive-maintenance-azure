@@ -1,0 +1,16 @@
+{
+    "accuracy": 0.9795,
+    "precision": 0.7142857142857143,
+    "recall": 0.6617647058823529,
+    "f1_score": 0.6870229007633588,
+    "roc_auc": 0.9720953598830837,
+    "model_name": "RandomForestClassifier",
+    "split_configuration": {
+        "test_size": 0.2,
+        "random_state": 42,
+        "stratify": true
+    },
+    "class_imbalance_method": "class_weight=balanced",
+    "test_records": 2000,
+    "test_failures": 68
+}
